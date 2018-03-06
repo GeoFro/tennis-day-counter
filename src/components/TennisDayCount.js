@@ -6,13 +6,16 @@ class TennisDayCount extends Component {
     return (
       <div className="TennisDayCount">
         <div className="total-days">
-          <span>Total Days: 6</span>
+          <span>Total Days: {this.props.total}</span>
         </div>
         <div className="competition-days">
-          <span>Competition Days: 2</span>
+          <span>Competition Days: {this.props.competition}</span>
         </div>
         <div className="casual-days">
-          <span>Casual Days: 4</span>
+          <span>Casual Days: {this.props.casual}</span>
+        </div>
+        <div className="goal-days">
+          <span>Goal: {this.props.goal}</span>
         </div>
       </div>
     )

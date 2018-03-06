@@ -6,7 +6,11 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
   <div>
-    <TennisDayCount />
+    <TennisDayCount total={47}
+                    competition={15}
+                    casual={32}
+                    goal={100}
+    />
   </div>,
    document.getElementById('root'));
 registerServiceWorker();
