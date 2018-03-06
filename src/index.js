@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './stylesheets/index.css';
-import App from './App';
+import TennisDayCount from './components/TennisDayCount';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <div>
+    <TennisDayCount />
+  </div>,
+   document.getElementById('root'));
 registerServiceWorker();
